@@ -1,0 +1,48 @@
+.mindset{
+  margin: 100px 230px 0;
+  border: 0;
+  border-radius: 5px;
+  background-image: url(./watch.png);
+  background-repeat: no-repeat;
+  position: relative;
+  height: 200px;
+  margin-bottom: 100px;
+}
+.mindset-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(./gradient.png);
+  height: 200px;
+  opacity: 0.5;
+  z-index: 1;
+
+}
+.mindset-text{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.mindset-title{
+  font-weight: 700;
+  font-size: 40px;
+  margin: 10px 420px 20px 30px;
+  color: #FFFF;
+  font-weight: 700;
+  font-size: 40px;
+}
+.mindset-button{
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  background: #FFFF;
+  color: #FD6E0A;
+  font-weight: 600px;
+  font-size: 20px;
+  border: 0;
+  padding: 15px 20px;
+  margin-left: 30px;
+}
